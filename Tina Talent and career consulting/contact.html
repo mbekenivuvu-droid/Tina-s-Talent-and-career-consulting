@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tina's Talent & Career Consulting — Testimonials & Contact</title>
+  <link rel="stylesheet" href="./CSS/contact.css" />
+</head>
+<body>
+
+  <header>
+    <div>
+      <a href="index.html">
+        <span>Tina's</span>
+        <span>Talent & Career Consulting</span>
+        <span>Unlocking Your Potential</span>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#schedule">Book a Consultation</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <div>
+        <!-- Top Header & Collage -->
+        <div>
+          <div>
+            <p>Testimonials</p>
+            <h1>What Our Clients<br />Say About Us</h1>
+            <p>
+              Real stories from individuals and organisations who have partnered with us on their career and professional development journeys.
+            </p>
+          </div>
+
+          <div>
+            <img src="./images/testimonials-hero.jpg" alt="Potted plant and stacked books" />
+            <p>People.<br />Potential.<br />Purpose.<br />♥</p>
+            <p>Good<br />People.<br />Great<br />Careers.<br />— ♥ —</p>
+            <ul>
+              <li>Confidence</li>
+              <li>Career Growth</li>
+              <li>Brighter Futures</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 9-Card Carousel (3 Slides x 3 Cards) -->
+        <div class="carousel-wrapper" aria-roledescription="carousel" aria-label="Client Testimonials">
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="testimonialTrack">
+
+              <!-- Slide 1 (Cards 1 - 3) -->
+              <div class="carousel-slide">
+                <article>
+                  <span>”</span>
+                  <p>
+                    "Working with Tina's Talent & Career Consulting was a valuable experience. Tina provided professional guidance, career support, and encouragement that improved my confidence and prepared me for employment opportunities."
+                  </p>
+                  <div>
+                    <h3>Takalani Nwagu</h3>
+                    <p>Graduate</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "The career coaching sessions helped me gain clarity and confidence in my career path. Tina's practical advice and support made a real difference in how I present myself professionally and approach new opportunities."
+                  </p>
+                  <div>
+                    <h3>Sinoxolo Mkotela</h3>
+                    <p>Job Seeker</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "Tina's training session for our team was insightful, practical and engaging. The content was relevant and easy to apply, and it left our team feeling motivated and better equipped to navigate their career journeys."
+                  </p>
+                  <div>
+                    <h3>Thandiwe R.</h3>
+                    <p>HR Professional</p>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Slide 2 (Cards 4 - 6) -->
+              <div class="carousel-slide">
+                <article>
+                  <span>”</span>
+                  <p>
+                    "My CV and LinkedIn profile went from overlooked to generating interview requests within two weeks. Tina helped me articulate my achievements clearly and position myself for senior roles."
+                  </p>
+                  <div>
+                    <h3>Lerato Mokoena</h3>
+                    <p>Marketing Specialist</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "Preparing for panel interviews used to overwhelm me. Through mock interviews and structured feedback, I walked into my interview calm, focused, and secured the offer."
+                  </p>
+                  <div>
+                    <h3>Sipho Ndlovu</h3>
+                    <p>Financial Analyst</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "As a final-year student, I had no idea how to enter the job market. The employability workshop gave me practical tools, a polished CV, and the confidence to apply boldly."
+                  </p>
+                  <div>
+                    <h3>Annelize Botha</h3>
+                    <p>University Graduate</p>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Slide 3 (Cards 7 - 9) -->
+              <div class="carousel-slide">
+                <article>
+                  <span>”</span>
+                  <p>
+                    "Partnering with Tina for our graduate development programme elevated our cohort's workplace readiness and communication skills from day one."
+                  </p>
+                  <div>
+                    <h3>Naledi Khumalo</h3>
+                    <p>People & Culture Lead</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "I was stuck in the same role for years and unsure how to pivot. Tina helped me map out a realistic transition plan that aligned with my strengths and values."
+                  </p>
+                  <div>
+                    <h3>David van Wyk</h3>
+                    <p>Operations Coordinator</p>
+                  </div>
+                </article>
+
+                <article>
+                  <span>”</span>
+                  <p>
+                    "Warm, insightful, and deeply knowledgeable about what employers actually look for. Every session left me with clear, actionable next steps."
+                  </p>
+                  <div>
+                    <h3>Zanele Dlamini</h3>
+                    <p>Project Administrator</p>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-controls">
+            <button type="button" id="prevTestimonial" aria-label="Previous testimonials">‹</button>
+            <div class="carousel-dots" role="tablist" aria-label="Testimonial slides">
+              <button type="button" class="active" data-slide="0" aria-label="Slide 1"></button>
+              <button type="button" data-slide="1" aria-label="Slide 2"></button>
+              <button type="button" data-slide="2" aria-label="Slide 3"></button>
+            </div>
+            <button type="button" id="nextTestimonial" aria-label="Next testimonials">›</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="schedule">
+      <div>
+        <!-- Left Contact Info -->
+        <div>
+          <p>Get In Touch</p>
+          <h2>Let's Connect</h2>
+          <p>
+            Whether you have a question, need more information about our services, or are ready to take the next step, I'd love to hear from you. You can reach me using the details below or book a consultation directly.
+          </p>
+
+          <ul>
+            <li>
+              <span>WhatsApp or Call</span>
+              <a href="tel:+27671342866">+27 67 134 2866</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:info@tinasconsulting.co.za">info@tinasconsulting.co.za</a>
+            </li>
+            <li>
+              <span>Location</span>
+              <p>Cape Town, South Africa</p>
+            </li>
+          </ul>
+
+          <div>
+            <div>
+              <p>Follow Us</p>
+              <ul>
+                <li><a href="#" aria-label="Facebook">f</a></li>
+                <li><a href="#" aria-label="LinkedIn">in</a></li>
+                <li><a href="#" aria-label="TikTok">♪</a></li>
+              </ul>
+            </div>
+            <p>Let's Stay<br />Connected.<br />♥</p>
+          </div>
+        </div>
+
+        <!-- Right Consultation Form -->
+        <div>
+          <p>Book a Consultation</p>
+          <h2>Schedule Your Session</h2>
+          <p>Fill in the form below and I'll be in touch to confirm your booking.</p>
+
+          <form action="#" method="post">
+            <div>
+              <label for="full-name">Full Name <span>*</span></label>
+              <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required />
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="email">Email Address <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+              </div>
+              <div>
+                <label for="phone">Phone Number <span>*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+              </div>
+            </div>
+
+            <div>
+              <label for="service">What would you like to discuss? <span>*</span></label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="career-coaching">Career Coaching</option>
+                <option value="cv-optimisation">CV Writing & Optimisation</option>
+                <option value="linkedin">LinkedIn Profile Optimisation</option>
+                <option value="interview-prep">Interview Preparation & Coaching</option>
+                <option value="employability">Employability Skills Development</option>
+                <option value="corporate-training">Corporate Training & Facilitation</option>
+                <option value="speaking">Speaking Engagements</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="notes">Any additional information?</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Share a few details (optional)"></textarea>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="preferred-date">Preferred Date <span>*</span></label>
+                <input type="date" id="preferred-date" name="preferred-date" required />
+              </div>
+              <div>
+                <label for="preferred-time">Preferred Time <span>*</span></label>
+                <select id="preferred-time" name="preferred-time" required>
+                  <option value="" disabled selected>Select a time</option>
+                  <option value="09:00">09:00 AM</option>
+                  <option value="11:00">11:00 AM</option>
+                  <option value="14:00">02:00 PM</option>
+                  <option value="16:00">04:00 PM</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit">Book My Consultation</button>
+            <p>🔒 Your information is secure and will only be used to confirm your booking.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a href="index.html">
+        <span>Tina's</span>
+        <span>Talent & Career Consulting</span>
+        <span>Unlocking Your Potential</span>
+      </a>
+
+      <p>People. Potential. Purpose. ♥</p>
+
+      <p>© 2026 Tina's Talent & Career Consulting.<br />All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const track = document.getElementById('testimonialTrack');
+      const slides = track ? Array.from(track.querySelectorAll('.carousel-slide')) : [];
+      const dots = Array.from(document.querySelectorAll('.carousel-dots button'));
+      const prevBtn = document.getElementById('prevTestimonial');
+      const nextBtn = document.getElementById('nextTestimonial');
+
+      if (!track || slides.length === 0) return;
+
+      const wrapper = track.closest('.carousel-wrapper');
+      const viewport = track.parentElement;
+
+      if (wrapper) wrapper.style.minWidth = '0';
+      if (viewport) {
+        viewport.style.overflow = 'hidden';
+        viewport.style.width = '100%';
+        viewport.style.minWidth = '0';
+      }
+
+      track.style.display = 'flex';
+      track.style.width = '100%';
+      track.style.transition = 'transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1)';
+
+      slides.forEach((slide) => {
+        slide.style.flex = '0 0 100%';
+        slide.style.width = '100%';
+        slide.style.minWidth = '100%';
+        slide.style.boxSizing = 'border-box';
+      });
+
+      let currentSlide = 0;
+      const totalSlides = slides.length;
+      const autoPlayDelay = 5000; // 5 seconds per slide
+      let autoPlayTimer = null;
+
+      function goToSlide(index) {
+        currentSlide = ((index % totalSlides) + totalSlides) % totalSlides;
+        track.style.transform = `translate3d(-${currentSlide * 100}%, 0, 0)`;
+
+        dots.forEach((dot, i) => {
+          const isActive = i === currentSlide;
+          dot.classList.toggle('active', isActive);
+          dot.setAttribute('aria-selected', String(isActive));
+        });
+      }
+
+      function startAutoPlay() {
+        stopAutoPlay();
+        autoPlayTimer = setInterval(() => {
+          goToSlide(currentSlide + 1);
+        }, autoPlayDelay);
+      }
+
+      function stopAutoPlay() {
+        if (autoPlayTimer) {
+          clearInterval(autoPlayTimer);
+          autoPlayTimer = null;
+        }
+      }
+
+      function resetAutoPlay() {
+        startAutoPlay();
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          goToSlide(currentSlide - 1);
+          resetAutoPlay();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          goToSlide(currentSlide + 1);
+          resetAutoPlay();
+        });
+      }
+
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', (e) => {
+          e.preventDefault();
+          goToSlide(i);
+          resetAutoPlay();
+        });
+      });
+
+      if (wrapper) {
+        wrapper.addEventListener('mouseenter', stopAutoPlay);
+        wrapper.addEventListener('mouseleave', startAutoPlay);
+      }
+
+      goToSlide(0);
+      startAutoPlay();
+    })();
+  </script>
+
+</body>
+</html>
